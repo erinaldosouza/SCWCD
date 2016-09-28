@@ -9,4 +9,17 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>HerlloWorldServlet</display-name>
+    <servlet-name>HerlloWorldServlet</servlet-name>
+    <servlet-class>br.com.scwcd.servlets.HerlloWorldServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HerlloWorldServlet</servlet-name>
+    <url-pattern>/HerlloWorldServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
