@@ -21,12 +21,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>HelloFTPServlet</display-name>
-    <servlet-name>HelloFTPServlet</servlet-name>
-    <servlet-class>br.com.scwcd.servlets.HelloFTPServlet</servlet-class>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>br.com.scwcd.servlets.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>HelloFTPServlet</servlet-name>
-    <url-pattern>/HelloFTPServlet</url-pattern>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
   </servlet-mapping>
 </web-app>
